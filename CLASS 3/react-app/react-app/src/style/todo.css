@@ -1,0 +1,56 @@
+.todo-app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+  }
+  
+  .input-container button {
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .task-list li.completed span {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .task-list button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .task-list button:hover {
+    background-color: darkred;
+  }
+  

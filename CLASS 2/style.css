@@ -1,0 +1,57 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(91, 85, 85); */
+}
+
+/* flex is used to convert from block to inline and to make site responsive */
+.header {
+  width: 100vw;
+  font-size: 2rem;
+  border: 2px solid black;
+  background-color: rgb(63, 63, 63);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0.5rem 0px 0.5rem;
+  height: 4rem;
+}
+
+.logo {
+  border: 2px solid red;
+}
+
+.header .logo img {
+  border: 2px solid orange;
+  width: 3rem;
+}
+
+.navbar {
+  border: 2px solid blue;
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul li {
+  /* padding: 0 1rem; */
+  list-style: none;
+  padding: 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: beige;
+}
+
+.btn {
+  border: 2px solid green;
+}

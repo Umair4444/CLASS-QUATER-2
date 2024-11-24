@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100vw;
+  height: auto;
+}
+
+.footer-text {
+  font-size: 1rem;
+  text-align: center;
+  background-color: black;
+  color: azure;
+}

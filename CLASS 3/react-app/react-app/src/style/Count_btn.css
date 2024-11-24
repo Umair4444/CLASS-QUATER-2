@@ -1,0 +1,29 @@
+#count-btn {
+  margin: 20px 0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#inc-dec {
+  margin: 5px;
+  padding: 1px;
+  /* outline: none;  */
+}
+
+#inc-btn {
+  /* outline: none;  */
+  border: 2px solid green;
+  border-radius: 10%;
+  outline: none;
+  margin: 0px 10px;
+  width: 20rem;
+}
+
+#dec-btn {
+  border: 2px solid red;
+  border-radius: 10%;
+  width: 20rem;
+}
