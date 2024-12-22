@@ -15,11 +15,11 @@ export default async function Home() {
             <li
               key={book.id}
               className={`py-3 container m-auto my-1 shadow-2xl ${
-                index % 2 !== 0 ? "bg-red-500" : "bg-green-500"
+                index % 2 === 0 ? "bg-red-500" : "bg-green-500"
               }`}
             >
               <Link href={`${book.id}`}>
-                <h1>{book.name}</h1>
+                <h1 className={`text-white`}>{book.name}</h1>
               </Link>
               <h1>{book.type}</h1>
               <h1>{book.availability}</h1>
