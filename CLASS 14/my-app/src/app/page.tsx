@@ -1,4 +1,5 @@
 import Link from "next/link";
+import React from "react";
 export default async function Home() {
   // to get data from this url help get api
   const url = await fetch("https://simple-books-api.glitch.me/books/", {
